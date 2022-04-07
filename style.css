@@ -1,9 +1,11 @@
 html {
   font-size: 62.5%;
+  width: auto;
 }
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,8 +14,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  max-width: 1600px;
-  width: 100%;
+  /* max-width: 1600px; */
+  width: auto;
 }
 
 .no-wrap {
@@ -90,6 +92,7 @@ span.nav-arrow {
 
 .section-hero {
   width: 100%;
+  z-index: 10;
 }
 
 .hero-container {
@@ -240,29 +243,32 @@ span.nav-arrow {
   opacity: 0.9;
 }
 
+.section-about {
+  margin-top: 8rem;
+}
+
 .about-container {
-  margin: 8rem 19.2rem;
+  /* margin: 8rem 19.2rem; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
-  gap: 6px 6px;
+  gap: 6px 26px;
   background-color: rgba(111, 141, 158, 0.05);
   box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
 }
 
 .about-graphic {
-  max-width: 61.1rem;
-  max-height: 93.2rem;
-  width: 611px;
-  height: 932px;
-  transform: translate(-120px, -133px);
+  width: 90%;
+  height: auto;
+  transform: translate(4px, -143px);
 }
 
 .about-header {
-  margin-top: 20;
   grid-column: 1 / -1;
   grid-row: 1 / 2;
-  padding: 0 24rem;
+  max-width: 500px;
+  align-self: center;
+  justify-self: center;
 }
 
 .about-text-header {
@@ -322,7 +328,7 @@ span.nav-arrow {
   height: 134px;
 }
 
-.portfolio {
+.section-portfolio {
   position: relative;
   background: #fff9ea;
   height: 100rem;
@@ -336,7 +342,7 @@ span.nav-arrow {
   flex-direction: column;
   gap: 4rem;
 
-  width: 80rem;
+  max-width: 80rem;
   align-items: center;
   justify-content: center;
   left: 50%;
