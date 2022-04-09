@@ -496,6 +496,7 @@ span.nav-arrow {
   justify-content: space-between;
   align-items: center;
   width: 120.5rem;
+  padding: 0 2rem;
 }
 
 .cta-heading {
