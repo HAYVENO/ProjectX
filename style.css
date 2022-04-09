@@ -571,4 +571,5 @@ span.nav-arrow {
 
 .footer-container {
   display: grid;
+  grid-template-columns: ;
 }
