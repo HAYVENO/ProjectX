@@ -393,7 +393,7 @@ span.nav-arrow {
 
 .testimonials-container {
   margin-top: 8rem;
-  position: absolute;
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.45fr 1fr;
@@ -468,4 +468,87 @@ span.nav-arrow {
   justify-self: center;
   align-self: center;
   margin-top: 7.2px;
+}
+
+.section-cta {
+  background-color: #3751ff;
+  width: 100%;
+  height: 32.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 46rem;
+}
+
+.cta-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  max-width: 46rem;
+
+  color: #ffffff;
+}
+
+.cta-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* identical to box height, or 20px */
+
+  text-align: right;
+
+  color: #dfe0eb;
+}
+
+.cta-description span {
+  color: #fed385;
+}
+
+.cta-text-box {
+  align-self: flex-end;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: flex-end;
+
+  white-space: nowrap;
+}
+
+.cta-btn {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  /* or 20px */
+
+  text-align: center;
+  color: #455880;
+  padding: 1.8rem 3.2rem;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 20px rgb(0 0 0 / 5%);
+  border-radius: 100px;
+
+  width: 24.6rem;
+  height: 5.6rem;
+}
+
+.cta-icon {
+  width: 29px;
+  height: 29px;
 }
