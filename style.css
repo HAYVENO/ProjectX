@@ -495,7 +495,7 @@ span.nav-arrow {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 46rem;
+  width: 120.5rem;
 }
 
 .cta-heading {
@@ -567,9 +567,10 @@ span.nav-arrow {
 
 .section-footer {
   background: #fff;
+  width: 100%;
 }
 
 .footer-container {
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: repeat(4, auto);
 }
