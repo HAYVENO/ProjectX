@@ -565,7 +565,7 @@ span.nav-arrow {
   height: 29px;
 }
 
-.section-footer {
+.footer {
   background: #fff;
   position: relative;
   width: 100%;
@@ -573,28 +573,125 @@ span.nav-arrow {
 }
 
 .footer-container {
+  width: 80vw;
   position: absolute;
   display: grid;
-  grid-template-columns: auto 1fr 1fr auto;
-
+  grid-template-columns: 6fr 3fr 3fr 1fr;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .footer-logo {
-  width: 60.73px;
+  width: 72px;
   height: auto;
 
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.2rem;
+}
+
+.logo-column {
+  margin-right: 1px;
 }
 
 .logo-column p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 145%;
+  line-height: 3.2rem;
   /* or 26px */
-  width: 30rem;
+  width: 32rem;
 
   color: #455880;
+}
+
+.footer-nav li {
+  list-style-type: none;
+}
+
+.footer-link {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 225%;
+  /* or 40px */
+
+  color: #455880;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.footer-heading {
+  margin-bottom: 4.4rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  /* identical to box height, or 28px */
+
+  color: #1e266d;
+}
+
+.doc-m {
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+
+.footer-icons-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.6rem;
+  margin-bottom: 3.8rem;
+}
+
+.footer-icons {
+  width: 16px;
+  height: 16px;
+}
+
+.copyright {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 5rem;
+  width: 120rem;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 75vw;
+}
+
+.copyright-divider {
+  display: flex;
+  gap: 2.8rem;
+}
+
+.footnote {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  /* or 193% */
+
+  text-align: right;
+
+  color: #455880ad;
+}
+
+.copyright-note {
+  align-self: center;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+  /* or 193% */
+
+  color: rgba(69, 88, 128, 0.5);
 }
